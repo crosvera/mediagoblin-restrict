@@ -7,6 +7,7 @@ _log = logging.getLogger(__name__)
 
 def setup_plugin():
     _log.info("restrict plugin stated!")
+    pluginapi.get_config("mediagoblin_restrict")
 
 def restrict_media_sidebar(context):
     print context
