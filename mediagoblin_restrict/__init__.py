@@ -1,7 +1,7 @@
 import logging
 import re
 
-from mediagoblin.tools.pluginapi import Plugin, get_config
+from mediagoblin.tools import pluginapi
 
 _log = logging.getLogger(__name__)
 
